@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: forum
+  data:
+    mongodb:
+      uri: mongodb://admin:pwd@mongo.domain.com:27017/forum?maxpoolsize=2&minpoolsize=1&authSource=admin
+      database: forum
+  redis:
+    host: redis.domain.com
+    port: 6379
+    password: pwd
+    jedis:
+      pool:
+        max-active: 100
+        max-wait: 100
+        max-idle: 10
+        min-idle: 0
+    timeout: 10000
+msoft:
+  jwt:
+    secret: jwt_secret
+    base64Secret: dsjadkasbjdkasjndkasbfsuahbfusafasfsaf
+    tokenValidityInSeconds: 18000000
+wechat:
+  code:
+    appId: appId
+    appSecret: appSecret
+    grantType: authorization_code
+    requestUrl: https://api.weixin.qq.com/sns/jscode2session
+server:
+  servlet:
+    encoding:
+      force: true
+      charset: UTF-8
