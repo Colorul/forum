@@ -1,6 +1,6 @@
 # forum
 论坛后端
-前端地址为：  https://github.com/yxyufo110/forum.git
+前端地址为：  https://github.com/yxyufo110/forum.git  
 基于springboot的论坛后端,采用webflux,JDK版本要求为JDK17。  
 效果预览：  
 ![7fce639a2c2ef49c997b9bb6ab3e734](https://user-images.githubusercontent.com/24819393/164585752-90edf604-bea6-473c-8b8a-b5ed8626c31b.png)  
