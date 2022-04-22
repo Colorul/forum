@@ -1,6 +1,7 @@
 # forum
 论坛后端
 前端地址为：
+基于springboot的论坛后端,采用webflux,JDK版本要求为JDK17。
 效果预览：
 ![7fce639a2c2ef49c997b9bb6ab3e734](https://user-images.githubusercontent.com/24819393/164585752-90edf604-bea6-473c-8b8a-b5ed8626c31b.png)
 ![4becba030810d8b55360ab11af27186](https://user-images.githubusercontent.com/24819393/164585765-fc40a31a-7479-4d97-9af6-609d96f17893.png)
